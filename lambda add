@@ -1,0 +1,25 @@
+# case 1
+
+def fun(a,b):
+    return a+b
+data = lambda a,b : a + b
+print(data(10,25))
+
+excepted output:
+35
+
+#case 2
+
+r = lambda a : a + 25
+print(r(10))
+
+excepted output:
+35
+
+#case 3
+
+adder = lambda x, y: x + y
+print (adder (10, 25))
+
+excepted output:
+35
